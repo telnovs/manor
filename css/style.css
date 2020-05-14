@@ -1,0 +1,34 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+.container-fluid{
+    padding: 0px;
+}
+/**********************************
+************ header ***************
+**********************************/
+header{
+    /*background-size:cover;*/
+    height: 858px;
+    background-image: url(../img/фон_лето.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+.nav{
+    height: 120px;
+    margin: 0px;
+    padding: 0px;
+    /*background-image:url("../img/подложка_при_скролле.png") ;*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: center center;*/
+}
+.nav div a img {
+    /*width: 109px;*/
+    /*height: 71px;*/
+    display: block;
+    padding-top: 22px;
+    padding-left: 330px;
+    margin: 0px;
+}
