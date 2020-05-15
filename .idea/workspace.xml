@@ -19,7 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eae2206e-6b70-40e1-9c66-ef0deaf70241" name="Default Changelist" comment="IMG" />
+    <list default="true" id="eae2206e-6b70-40e1-9c66-ef0deaf70241" name="Default Changelist" comment="header">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +43,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../htmlCss/Bootstrap/макет_Austera" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -64,7 +68,8 @@
       <workItem from="1589383527249" duration="5267000" />
       <workItem from="1589468310673" duration="3563000" />
       <workItem from="1589472791068" duration="104000" />
-      <workItem from="1589472898852" duration="1139000" />
+      <workItem from="1589472898852" duration="2410000" />
+      <workItem from="1589558093414" duration="3414000" />
     </task>
     <task id="LOCAL-00001" summary="IMG">
       <created>1589469634126</created>
@@ -73,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589469634126</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="header">
+      <created>1589474485539</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589474485539</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,7 +105,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="IMG" />
-    <option name="LAST_COMMIT_MESSAGE" value="IMG" />
+    <MESSAGE value="header" />
+    <option name="LAST_COMMIT_MESSAGE" value="header" />
   </component>
   <component name="WindowStateProjectService">
     <state width="371" height="482" key="Diff.GoToChangePopup" timestamp="1589469852919">
@@ -104,10 +117,10 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="187" y="85" width="1039" height="622" key="DiffContextDialog/67.27.1299.741@67.27.1299.741" timestamp="1589471960490" />
-    <state x="488" y="140" width="447" height="513" key="FileChooserDialogImpl" timestamp="1589472994394">
+    <state x="488" y="140" width="447" height="513" key="FileChooserDialogImpl" timestamp="1589559238049">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="488" y="140" width="447" height="513" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1589472994394" />
+    <state x="488" y="140" width="447" height="513" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1589559238049" />
     <state x="578" y="296" key="Github.ShareDialog" timestamp="1589473007255">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -116,9 +129,9 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="500" y="83" width="423" height="626" key="Github.UntrackedFilesDialog/67.27.1299.741@67.27.1299.741" timestamp="1589473022306" />
-    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1589471968564">
+    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1589474519490">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1299.741@67.27.1299.741" timestamp="1589471968564" />
+    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1299.741@67.27.1299.741" timestamp="1589474519490" />
   </component>
 </project>

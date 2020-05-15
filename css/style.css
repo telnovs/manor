@@ -24,11 +24,23 @@ header{
     /*background-repeat: no-repeat;*/
     /*background-position: center center;*/
 }
+.nav{
+    padding: 0 330px ;
+    margin: 0px;
+}
 .nav div a img {
     /*width: 109px;*/
     /*height: 71px;*/
     display: block;
     padding-top: 22px;
-    padding-left: 330px;
     margin: 0px;
+}
+header nav div ul {
+    list-style-type: none;
+    padding-right: 50px;
+    margin: 0;
+}
+header nav div ul  li{
+    display: inline-block;
+    margin-right: 50px;
 }
