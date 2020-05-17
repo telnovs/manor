@@ -1,6 +1,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
+
 }
 .container-fluid{
     padding: 0px;
@@ -10,6 +11,7 @@ body{
 **********************************/
 header{
     /*background-size:cover;*/
+
     height: 858px;
     background-image: url(../img/фон_лето.png);
     background-repeat: no-repeat;
@@ -17,17 +19,19 @@ header{
 
 }
 .nav{
+    display: block;
     height: 120px;
-    margin: 0px;
+    margin: 0 auto;
     padding: 0px;
+    width: 1280px;
     /*background-image:url("../img/подложка_при_скролле.png") ;*/
     /*background-repeat: no-repeat;*/
     /*background-position: center center;*/
 }
-.nav{
-    padding: 0 330px ;
-    margin: 0px;
-}
+/*.nav{*/
+/*    padding: 0 330px ;*/
+/*    margin: 0px;*/
+/*}*/
 .nav div a img {
     /*width: 109px;*/
     /*height: 71px;*/
@@ -42,5 +46,32 @@ header nav div ul {
 }
 header nav div ul  li{
     display: inline-block;
-    margin-right: 50px;
+    margin-right: 30px;
+    margin-top: 40px ;
+}
+header nav ul li a{
+    color: #000;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+
+}
+.telefon{
+    text-align: center;
+}
+.telefon a{
+    margin: 0;
+    padding: 0;
+}
+.telefon a img{
+    margin: 0;
+    padding: 0;
+}
+.telefon h3 {
+    margin: 0;
+    padding: 0;
+}
+.telefon h4 {
+    margin: 0;
+    padding: 0;
 }
