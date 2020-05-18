@@ -12,7 +12,7 @@ body{
 header{
     /*background-size:cover;*/
 
-    height: 858px;
+    height: 918px;
     background-image: url(../img/фон_лето.png);
     background-repeat: no-repeat;
     background-position: center center;
@@ -41,8 +41,9 @@ header{
 }
 header nav div ul {
     list-style-type: none;
-    padding-right: 50px;
-    margin: 0;
+    padding-right: 30px;
+    margin: 0 auto;
+
 }
 header nav div ul  li{
     display: inline-block;
@@ -50,28 +51,109 @@ header nav div ul  li{
     margin-top: 40px ;
 }
 header nav ul li a{
-    color: #000;
-    font-size: 18px;
     text-decoration: none;
     text-align: center;
-
+    /* Style for "Услуги" */
+    width: 779px;
+    height: 18px;
+    color: #252525;
+    font-family: "Roboto Condensed";
+    font-size: 19px;
+    margin: 0 auto;
 }
-.telefon{
-    text-align: center;
+/**********************************
+************ телефон ***************
+**********************************/
+.telefon section{
+    display:block;
+    padding-top: 30px;
 }
-.telefon a{
+.telefon section a{
     margin: 0;
     padding: 0;
+    text-align: left;
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    background-color: #3588dc;
 }
-.telefon a img{
-    margin: 0;
+.telefon section a img.cirle{
+    margin: 7px 10px 10px 10px;
     padding: 0;
+    text-align: left;
+    width: 13px;
+    height: 15px;
+    color: #ffffff;
+    background-position: center center;
 }
-.telefon h3 {
+.telefon section h3 {
+    width: 220px;
     margin: 0;
-    padding: 0;
+    padding:5px 10px 5px 0px;
+    text-align: right;
+    font-size: 27px;
+    color: #111111;
+    font-family: "Berlingske Serif Cn - D Bd";
 }
-.telefon h4 {
+.telefon h4{
+    text-align: right;
     margin: 0;
-    padding: 0;
+    padding-right:8px;
+    height: 17px;
+    color: #525252;
+    font-family: "Roboto Condensed";
+    font-size: 15px;
+    margin: 0px;
+}
+/**********************************************
+************ заголовки и кнопка  ***************
+***********************************************/
+section.headers{
+    display: block;
+    /*height: 120px;*/
+    margin: 0 auto;
+    padding: 0px;
+    width: 1280px;
+}
+section.headers div.h1{
+    color: #111111;
+    font-family: "Berlingske Serif Cn - Md";
+    font-size: 2em;
+    font-weight: 400;
+    line-height: 65px;
+    text-transform: uppercase;
+    letter-spacing: 1.12px;
+    width: 540px;
+}
+section.headers div.h1 span{
+    color: #a27848;
+    letter-spacing: 1.12px;
+}
+section.headers div.h3{
+    color: #111111;
+    font-family: "Roboto Condensed";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0.44px;
+    width: 540px;
+}
+div.batton{
+    width:270px;
+    height: 65px;
+    display: block;
+    border-radius: 5px;
+    background-color: #3185db;
+}
+div.batton div{
+    display: block;
+    color: #ffffff;
+    font-family: "Roboto Condensed";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26.66px;
+    text-transform: uppercase;
+    /* Text style for "Наши услуг" */
+    letter-spacing: 0.67px;
+    margin: 0 auto;
 }
