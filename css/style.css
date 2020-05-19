@@ -120,17 +120,21 @@ section.headers div.h1{
     font-family: "Berlingske Serif Cn - Md";
     font-size: 2em;
     font-weight: 400;
-    line-height: 65px;
+    /*line-height: 65px;*/
     text-transform: uppercase;
     letter-spacing: 1.12px;
     width: 540px;
+    margin: 0.60em 0;
+}
+section.headers div.h1 h1{
+    margin: 0.40em 0;
 }
 section.headers div.h1 span{
     color: #a27848;
     letter-spacing: 1.12px;
 }
 section.headers div.h3{
-    color: #111111;
+    color: #646566;
     font-family: "Roboto Condensed";
     font-size: 18px;
     font-weight: 300;
@@ -144,6 +148,7 @@ div.batton{
     display: block;
     border-radius: 5px;
     background-color: #3185db;
+    margin-top: 30px;
 }
 div.batton div{
     display: block;
@@ -156,4 +161,13 @@ div.batton div{
     /* Text style for "Наши услуг" */
     letter-spacing: 0.67px;
     margin: 0 auto;
+    text-align: center;
 }
+div.batton a{
+    display: block;
+    margin:2px 13px;
+
+}
+/**********************************************
+************ наши услуги  *********************
+***********************************************/
