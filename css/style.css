@@ -3,6 +3,9 @@ body{
     margin: 0px;
 
 }
+.container{
+    width: 1280px;
+}
 .container-fluid{
     padding: 0px;
 }
@@ -171,3 +174,58 @@ div.batton a{
 /**********************************************
 ************ наши услуги  *********************
 ***********************************************/
+section.services{
+    display: block;
+    height: 805px;
+    margin: 0 auto;
+    padding: 0px;
+}
+div.our_services h3{
+    color: #111111;
+    font-family: "Berlingske Serif Cn - Md";
+    font-size: 39px;
+    font-weight: 400;
+    line-height: 40px;
+    text-transform: uppercase;
+    letter-spacing: 0.78px;
+    text-align: center;
+    margin-top: -50px;
+
+}
+/************ Картинки  наши услуги *****/
+div.our_services section.services1{
+    display: block;
+    height: 805px;
+    margin: 0 auto;
+    padding: 0px;
+}
+div.our_services h2{
+    text-align: left;
+    width: 250px;
+    font-size: 1rem;
+    color: #646566
+}
+div.our_services section.services2{
+    display: block;
+    height: 385px;
+    margin: 0 auto;
+    padding: 0px;
+}
+div.our_services section.services3{
+    display: block;
+    height: 385px;
+    margin: 0 auto;
+    padding: 0px;
+}
+div.our_services section.services4 {
+    display: block;
+    height: 385px;
+    margin: 0 auto;
+    padding: 0px;
+}
+div.our_services section.services5 {
+    display: block;
+    height: 385px;
+    margin: 0 auto;
+    padding: 0px;
+}
