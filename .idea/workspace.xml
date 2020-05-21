@@ -19,8 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eae2206e-6b70-40e1-9c66-ef0deaf70241" name="Default Changelist" comment="header-Our_services_imges">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="eae2206e-6b70-40e1-9c66-ef0deaf70241" name="Default Changelist" comment="header-Our_services_1">
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -75,7 +74,7 @@
       <workItem from="1589809862876" duration="10788000" />
       <workItem from="1589899683888" duration="8414000" />
       <workItem from="1589975071772" duration="12510000" />
-      <workItem from="1590063963542" duration="9460000" />
+      <workItem from="1590063963542" duration="17084000" />
     </task>
     <task id="LOCAL-00001" summary="IMG">
       <created>1589469634126</created>
@@ -119,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589993637557</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="header-Our_services_1">
+      <created>1590080040215</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1590080040215</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,7 +149,8 @@
     <MESSAGE value="header- telefon" />
     <MESSAGE value="header-Our_services" />
     <MESSAGE value="header-Our_services_imges" />
-    <option name="LAST_COMMIT_MESSAGE" value="header-Our_services_imges" />
+    <MESSAGE value="header-Our_services_1" />
+    <option name="LAST_COMMIT_MESSAGE" value="header-Our_services_1" />
   </component>
   <component name="WindowStateProjectService">
     <state width="371" height="482" key="Diff.GoToChangePopup" timestamp="1589469852919">
@@ -166,9 +173,9 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="500" y="83" width="423" height="626" key="Github.UntrackedFilesDialog/67.27.1299.741@67.27.1299.741" timestamp="1589473022306" />
-    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1590080021115">
+    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1590080054108">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1299.741@67.27.1299.741" timestamp="1590080021115" />
+    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1299.741@67.27.1299.741" timestamp="1590080054108" />
   </component>
 </project>
