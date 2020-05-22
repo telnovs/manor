@@ -206,11 +206,6 @@ div.our_services section.services1{
     height: 700px;
     margin: 0px;
     padding: 0px;
-
-
-}
-div.our_services section.services1 img{
-    height: 470px;
 }
 div.our_services h2{
     text-align: left;
@@ -221,36 +216,34 @@ div.our_services h2{
 div.our_services section.services2{
     grid-area: services2;
     height: 340px;
-    margin-left:5px ;
+    margin-left:30px ;
     padding: 0px;
-    margin-bottom: 5px;
 }
 div.our_services section.services3{
     grid-area: services3;
-    margin-left:5px ;
+    margin-left:30px ;
     padding: 0px;
-    margin-bottom: 5px;
 }
 div.our_services section.services4 {
     grid-area: services4;
     height: 340px;
-    margin-left:5px ;
+    margin-left:30px ;
     padding: 0px;
 }
 div.our_services section.services5 {
     grid-area: services5;
     height: 340px;
-    margin-left:5px ;
+    margin-left:30px ;
     padding: 0px;
 }
 div.our_services div.service1{
     display: grid;
-    height: 470px;
+    height: 515px;
     background-image: url("../img/Слой_2358.png");
     background-repeat: no-repeat;
     background-position: center center;
     margin-bottom:50px;
-    background-size: contain;
+    background-size: cover;
 
 }
 div.our_services div.service2{
@@ -260,6 +253,7 @@ div.our_services div.service2{
     background-repeat: no-repeat;
     background-position: center center;
     margin-bottom:50px;
+    background-size: cover;
 }
 div.our_services div.service3{
     display: grid;
@@ -268,7 +262,7 @@ div.our_services div.service3{
     background-repeat: no-repeat;
     background-position: center center;
     margin-bottom:50px;
-    background-size: contain;
+    background-size: cover;
 
 }
 div.our_services div.service4{
@@ -278,6 +272,7 @@ div.our_services div.service4{
     background-repeat: no-repeat;
     background-position: center center;
     margin-bottom:50px;
+    background-size: cover;
 }div.our_services div.service5{
      display: grid;
      height: 165px;
@@ -285,6 +280,8 @@ div.our_services div.service4{
      background-repeat: no-repeat;
      background-position: center center;
      margin-bottom:50px;
+     background-size: cover;
+
  }
 div.our_services div.namber{
     display: grid;
@@ -299,4 +296,7 @@ div.our_services div.namber{
     align-self: end;
     margin:0 0 1px 30px;
     align-items:center;
+}
+/************ кпопка  наши услуги *****/
+div.our_services section.services1 a{
 }
