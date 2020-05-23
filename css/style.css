@@ -215,7 +215,7 @@ div.our_services h2{
 }
 div.our_services section.services2{
     grid-area: services2;
-    height: 340px;
+    /*height: 340px;*/
     margin-left:30px ;
     padding: 0px;
 }
@@ -226,13 +226,13 @@ div.our_services section.services3{
 }
 div.our_services section.services4 {
     grid-area: services4;
-    height: 340px;
+    /*height: 340px;*/
     margin-left:30px ;
     padding: 0px;
 }
 div.our_services section.services5 {
     grid-area: services5;
-    height: 340px;
+    /*height: 340px;*/
     margin-left:30px ;
     padding: 0px;
 }
@@ -271,7 +271,7 @@ div.our_services div.service4{
     background-image: url("../img/Слой_2362.png");
     background-repeat: no-repeat;
     background-position: center center;
-    margin-bottom:50px;
+    margin-bottom:35px;
     background-size: cover;
 }div.our_services div.service5{
      display: grid;
@@ -279,7 +279,7 @@ div.our_services div.service4{
      background-image: url("../img/Слой_2363.png");
      background-repeat: no-repeat;
      background-position: center center;
-     margin-bottom:50px;
+     margin-bottom:35px;
      background-size: cover;
 
  }
@@ -298,5 +298,36 @@ div.our_services div.namber{
     align-items:center;
 }
 /************ кпопка  наши услуги *****/
-div.our_services section.services1 a{
+div.our_services  div.button{
+    display:flex;
+    width: 230px;
+    height: 50px;
+    padding: 0;
+    margin: 25px 0 50px 50px;
+    background-color: #d6b790;
+    border-radius:2px;
+    align-items: center;
+    justify-content: center;
 }
+div.our_services  div.button a.textButton{
+    text-decoration: none;
+    text-shadow: 0 1px 3px #ffffff;
+    color: #111111;
+    font-family: "Roboto Condensed";
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+/************ h2 наши услуги *****/
+div.our_services h2.ourServicesH2{
+    color: #111111;
+    font-family: "Roboto Condensed";
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0.42px;
+    margin:0 0 0 50px;
+
+}
+/**********************************************
+************ наши услуги  *********************
+***********************************************/
