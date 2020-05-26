@@ -179,6 +179,9 @@ div.our_services{
     height:810px;
     width: 1280px;
     margin: 0 auto;
+    margin-bottom: -250px;
+    position: relative;
+    z-index: 2;
 }
 div.our_services h3{
     color: #111111;
@@ -195,7 +198,7 @@ div.our_services h3{
 /************ Картинки  наши услуги *****/
 div.our_services article.services{
     display: grid;
-    height: 700px;
+    height: 732px;
     max-width: 1280px;
     margin: 0 0 0 0;
     grid-template-areas: 	"services1 services2 services3"
@@ -203,9 +206,10 @@ div.our_services article.services{
 }
 div.our_services section.services1{
     grid-area: services1;
-    height: 700px;
+    height: 732px;
     margin: 0px;
     padding: 0px;
+    background-color: white;
 }
 div.our_services h2{
     text-align: left;
@@ -218,23 +222,27 @@ div.our_services section.services2{
     /*height: 340px;*/
     margin-left:30px ;
     padding: 0px;
+    background-color: white;
 }
 div.our_services section.services3{
     grid-area: services3;
     margin-left:30px ;
     padding: 0px;
+    background-color: white;
 }
 div.our_services section.services4 {
     grid-area: services4;
     /*height: 340px;*/
     margin-left:30px ;
     padding: 0px;
+    background-color: white;
 }
 div.our_services section.services5 {
     grid-area: services5;
     /*height: 340px;*/
     margin-left:30px ;
     padding: 0px;
+    background-color: white;
 }
 div.our_services div.service1{
     display: grid;
@@ -331,19 +339,61 @@ div.our_services h2.ourServicesH2{
 /**********************************************
 ************  Приемущества *********************
 ***********************************************/
+
+
+/***** блок залоговка с текстом ******/
 div.advantages{
+    display: block;
     height:1515px;
-    background-image: url("../img/7-layers.png") ;
+    background-image: url("../img/layers.png") ;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     padding: 0;
     margin: 0;
-    margin-top: -300px;
+    position: relative;
+    z-index:1;
+
 }
-.blockText{
-    display: block;
-    width: 1280px;
-    margin: o auto;
+div.advantages div.text{
+    display: grid;
+    width:1280px;
+    margin: 0 auto;
     padding: 0;
+    /*position: absolute; не работает с маржин или то или то*/
+    top:300px;
 }
+/************ Заголовок ***********/
+div.advantages div.text h3.pAdvantages{
+    width: 400px;
+    height: 90px;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    text-transform: uppercase;
+    letter-spacing: 0.78px;
+    font-family: "Berlingske Serif Cn - Md";
+
+}
+/************ Текст ***********/
+div.advantages div.text p.textAdvantages{
+    display:block;
+    width: 580px;
+    height: 360px;
+    color: #111111;
+    font-family: "Roboto Condensed";
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0.42px;
+    line-height: 30px;
+}
+/************ Блок с катинками ***********/
+div.advantages div.img_advantages{
+    display: grid;
+    width:1280px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: white;
+    top:300px;
+}
+

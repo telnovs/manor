@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eae2206e-6b70-40e1-9c66-ef0deaf70241" name="Default Changelist" comment="advantages">
+    <list default="true" id="eae2206e-6b70-40e1-9c66-ef0deaf70241" name="Default Changelist" comment="advantages-p">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -79,7 +79,8 @@
       <workItem from="1590159697276" duration="10356000" />
       <workItem from="1590199766476" duration="1077000" />
       <workItem from="1590326234417" duration="4126000" />
-      <workItem from="1590419991790" duration="4483000" />
+      <workItem from="1590419991790" duration="9155000" />
+      <workItem from="1590495866510" duration="12470000" />
     </task>
     <task id="LOCAL-00001" summary="IMG">
       <created>1589469634126</created>
@@ -151,7 +152,21 @@
       <option name="project" value="LOCAL" />
       <updated>1590339409847</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="advantages-p">
+      <created>1590425606293</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1590425606293</updated>
+    </task>
+    <task id="LOCAL-00012" summary="advantages-p">
+      <created>1590425622429</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1590425622429</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,7 +194,8 @@
     <MESSAGE value="header-Our_services_button" />
     <MESSAGE value="header-Our_services_finish" />
     <MESSAGE value="advantages" />
-    <option name="LAST_COMMIT_MESSAGE" value="advantages" />
+    <MESSAGE value="advantages-p" />
+    <option name="LAST_COMMIT_MESSAGE" value="advantages-p" />
   </component>
   <component name="WindowStateProjectService">
     <state width="371" height="482" key="Diff.GoToChangePopup" timestamp="1589469852919">
@@ -202,9 +218,9 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="500" y="83" width="423" height="626" key="Github.UntrackedFilesDialog/67.27.1299.741@67.27.1299.741" timestamp="1589473022306" />
-    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1590339424792">
+    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1590425630363">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1299.741@67.27.1299.741" timestamp="1590339424792" />
+    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1299.741@67.27.1299.741" timestamp="1590425630363" />
   </component>
 </project>
