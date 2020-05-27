@@ -1,15 +1,16 @@
 body{
     font-family: 'Montserrat', sans-serif;
-    margin: 0px;
+    margin: 0;
 
 }
 .container{
     width: 1280px;
 }
 .container-fluid{
-    padding: 0px;
+    padding: 0;
 }
-
+/*font-family: 'DM Sans', sans-serif;*/
+/*font-family: 'Roboto Condensed', sans-serif;*/
 /**********************************
 ************ header ***************
 **********************************/
@@ -26,7 +27,7 @@ header{
     display: block;
     height: 120px;
     margin: 0 auto;
-    padding: 0px;
+    padding: 0;
     width: 1280px;
     /*background-image:url("../img/подложка_при_скролле.png") ;*/
     /*background-repeat: no-repeat;*/
@@ -41,7 +42,7 @@ header{
     /*height: 71px;*/
     display: block;
     padding-top: 22px;
-    margin: 0px;
+    margin: 0;
 }
 header nav div ul {
     list-style-type: none;
@@ -61,7 +62,7 @@ header nav ul li a{
     width: 779px;
     height: 18px;
     color: #252525;
-    font-family: "Roboto Condensed";
+    font-family: "Roboto Condensed",sans-serif;
     font-size: 19px;
     margin: 0 auto;
 }
@@ -93,11 +94,11 @@ header nav ul li a{
 .phone section h3 {
     width: 220px;
     margin: 0;
-    padding:5px 10px 5px 0px;
+    padding:5px 10px 5px 0;
     text-align: right;
     font-size: 27px;
     color: #111111;
-    font-family: "Berlingske Serif Cn - D Bd";
+    font-family: 'DM Sans', sans-serif;
 }
 .phone h4{
     text-align: right;
@@ -105,9 +106,8 @@ header nav ul li a{
     padding-right:8px;
     height: 17px;
     color: #525252;
-    font-family: "Roboto Condensed";
+    font-family: "Roboto Condensed",sans-serif;
     font-size: 15px;
-    margin: 0px;
 }
 /**********************************************
 ************ заголовки и кнопка  ***************
@@ -116,12 +116,12 @@ section.headers{
     display: block;
     /*height: 120px;*/
     margin: 0 auto;
-    padding: 0px;
+    padding: 0;
     width: 1280px;
 }
 section.headers div.h1{
     color: #111111;
-    font-family: "Berlingske Serif Cn - Md";
+    font-family: 'DM Sans', sans-serif;
     font-size: 2em;
     font-weight: 400;
     /*line-height: 65px;*/
@@ -139,7 +139,7 @@ section.headers div.h1 span{
 }
 section.headers div.h3{
     color: #646566;
-    font-family: "Roboto Condensed";
+    font-family: "Roboto Condensed",sans-serif;
     font-size: 18px;
     font-weight: 300;
     line-height: 26px;
@@ -157,7 +157,7 @@ div.batton{
 div.batton div{
     display: block;
     color: #ffffff;
-    font-family: "Roboto Condensed";
+    font-family: "Roboto Condensed",sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 26.66px;
@@ -185,7 +185,7 @@ div.our_services{
 }
 div.our_services h3{
     color: #111111;
-    font-family: "Berlingske Serif Cn - Md";
+    font-family: 'DM Sans', sans-serif;
     font-size: 39px;
     font-weight: 400;
     line-height: 40px;
@@ -207,8 +207,8 @@ div.our_services article.services{
 div.our_services section.services1{
     grid-area: services1;
     height: 732px;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     background-color: white;
 }
 div.our_services h2{
@@ -221,27 +221,27 @@ div.our_services section.services2{
     grid-area: services2;
     /*height: 340px;*/
     margin-left:30px ;
-    padding: 0px;
+    padding: 0;
     background-color: white;
 }
 div.our_services section.services3{
     grid-area: services3;
     margin-left:30px ;
-    padding: 0px;
+    padding: 0;
     background-color: white;
 }
 div.our_services section.services4 {
     grid-area: services4;
     /*height: 340px;*/
     margin-left:30px ;
-    padding: 0px;
+    padding: 0;
     background-color: white;
 }
 div.our_services section.services5 {
     grid-area: services5;
     /*height: 340px;*/
     margin-left:30px ;
-    padding: 0px;
+    padding: 0;
     background-color: white;
 }
 div.our_services div.service1{
@@ -296,7 +296,7 @@ div.our_services div.namber{
     width: 68px;
     height: 58px;
     color: #ffffff;
-    font-family: "Berlingske Serif Cn";
+    font-family: 'DM Sans', sans-serif;
     font-size: 36px;
     font-weight: 400;
     text-align: center;
@@ -321,7 +321,7 @@ div.our_services  div.button a.textButton{
     text-decoration: none;
     text-shadow: 0 1px 3px #ffffff;
     color: #111111;
-    font-family: "Roboto Condensed";
+    font-family: "Roboto Condensed",sans-serif;
     font-size: 15px;
     font-weight: 400;
     text-transform: uppercase;
@@ -329,7 +329,7 @@ div.our_services  div.button a.textButton{
 /************ h2 наши услуги *****/
 div.our_services h2.ourServicesH2{
     color: #646566;
-    font-family: "Roboto Condensed";
+    font-family: "Roboto Condensed",sans-serif;
     font-size: 18px;
     font-weight: 300;
     letter-spacing: 0.42px;
@@ -372,7 +372,7 @@ div.advantages div.text h3.pAdvantages{
     line-height: 40px;
     text-transform: uppercase;
     letter-spacing: 0.78px;
-    font-family: "Berlingske Serif Cn - Md";
+    font-family: 'DM Sans', sans-serif;
 
 }
 /************ Текст ***********/
@@ -381,17 +381,18 @@ div.advantages div.text p.textAdvantages{
     width: 580px;
     height: 360px;
     color: #646566;
-    font-family: "Roboto Condensed";
+    font-family: "Roboto Condensed",sans-serif;
     font-size: 18px;
     font-weight: bold;
     letter-spacing: 0.44px;
     line-height: 30px;
 }
 /************ Блок с катинками ***********/
+
 div.img_advantages div.row{
     padding: 0;
     margin: 0;
-    height: 500px;
+    height: 537px;
 }
 div.advantages div.img_advantages{
     display: grid;
@@ -408,7 +409,7 @@ div.advantages div.img_advantages h3.img_advantages_h3{
     padding: 75px 0;
     margin: 0 ;
     color: #111111;
-    font-family: "Berlingske Serif Cn - Md";
+    font-family: 'DM Sans', sans-serif;
     font-size: 32px;
     font-weight: 400;
     line-height: 40px;
@@ -417,4 +418,99 @@ div.advantages div.img_advantages h3.img_advantages_h3{
     text-align: center;
 }
 /************ Блок №1***********/
-div.block1
+div.block1 img.img-block1{
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-left: 30px;
+
+}
+div.block1 h2.h2-block1{
+    text-transform: uppercase;
+    padding-left: 15px;
+    font-size: 18px;
+}
+div.block1 p.p-block1{
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 0.78px;
+    color: #646566;
+    margin-top: 10px;
+    padding-left: 15px;
+    font-family: "Roboto Condensed",sans-serif;
+    font-size:16px;
+}
+/************ Блок №2***********/
+div.block2 img.img-block2{
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-left: 30px;
+
+}
+div.block2 h2.h2-block2{
+    text-transform: uppercase;
+    padding-left: 15px;
+    font-size: 18px;
+}
+div.block2 p.p-block2{
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.78px;
+    color: #646566;
+    margin-top: 10px;
+    padding-left: 15px;
+    font-family: "Roboto Condensed",sans-serif;
+}
+/************ Блок №3***********/
+div.block3 img.img-block3{
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-left: 30px;
+
+}
+div.block3 h2.h2-block3{
+    text-transform: uppercase;
+    padding-left: 15px;
+    font-size: 18px;
+}
+div.block3 p.p-block3{
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.78px;
+    color: #646566;
+    margin-top: 10px;
+    padding-left: 15px;
+    font-family: "Roboto Condensed",sans-serif;
+}
+/************ Блок №4***********/
+div.block4 img.img-block4{
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-left: 30px;
+
+}
+div.block4 h2.h2-block4{
+    text-transform: uppercase;
+    padding-left: 15px;
+    font-size: 18px;
+}
+div.block4 p.p-block4{
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.78px;
+    color: #646566;
+    margin-top: 10px;
+    padding-left: 15px;
+    font-family: "Roboto Condensed",sans-serif;
+}
