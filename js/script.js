@@ -3,9 +3,10 @@ $(document).ready(function(){
 		arrows:true,
 		dots:true,
 		slidesToShow:3,
-		autoplay:true,
+		autoplay:false,
 		speed:1000,
-		autoplaySpeed:800,
+		autoplaySpeed:false,
+		rows:2,
 		responsive:[
 			{
 				breakpoint: 768,

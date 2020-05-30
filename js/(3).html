@@ -1,99 +1,99 @@
-<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
-<!DOCTYPE html>
-<!-- Оболочка документа, указываем язык содержимого -->
-<html lang="ru">
-	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
-	<head>
-		<!-- Заголовок страницы в браузере -->
-		<title>Slick слайдер</title>
-		<!-- Подключаем CSS -->
-		<link rel="stylesheet" href="css/style.css">
-		<!-- Кодировка страницы -->
-		<meta charset="UTF-8">
-		<!-- Адаптив -->
-		<meta name="viewport" content="width=device-width">
-	</head>
-	<!-- Отображаемое тело страницы -->
-	<body>
-		<!-- Оболочка для демонстрации -->
-		<div class="wrapper">
-			<!-- Контент -->
+<!--&lt;!&ndash; Сообщаем браузеру как стоит обрабатывать эту страницу &ndash;&gt;-->
+<!--<!DOCTYPE html>-->
+<!--&lt;!&ndash; Оболочка документа, указываем язык содержимого &ndash;&gt;-->
+<!--<html lang="ru">-->
+<!--	&lt;!&ndash; Заголовок страницы, контейнер для других важных данных (не отображается) &ndash;&gt;-->
+<!--	<head>-->
+<!--		&lt;!&ndash; Заголовок страницы в браузере &ndash;&gt;-->
+<!--		<title>Slick слайдер</title>-->
+<!--		&lt;!&ndash; Подключаем CSS &ndash;&gt;-->
+<!--		<link rel="stylesheet" href="css/style.css">-->
+<!--		&lt;!&ndash; Кодировка страницы &ndash;&gt;-->
+<!--		<meta charset="UTF-8">-->
+<!--		&lt;!&ndash; Адаптив &ndash;&gt;-->
+<!--		<meta name="viewport" content="width=device-width">-->
+<!--	</head>-->
+<!--	&lt;!&ndash; Отображаемое тело страницы &ndash;&gt;-->
+<!--	<body>-->
+<!--		&lt;!&ndash; Оболочка для демонстрации &ndash;&gt;-->
+<!--		<div class="wrapper">-->
+<!--			&lt;!&ndash; Контент &ndash;&gt;-->
 
-			<div class="slider">
-				<div class="slider__item filter">
-					<img src="img/slides/big/02.jpg" alt="">
-				</div>
-				<div class="slider__item">
-					<img src="img/slides/big/03.jpg" alt="">
-				</div>
-				<div class="slider__item filter">
-					<img src="img/slides/big/04.jpg" alt="">
-				</div>
-				<div class="slider__item">
-					<img src="img/slides/big/05.jpg" alt="">
-				</div>
-			</div>
-			
-			<!-- Подключаем jQuery -->
-			<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-			<!-- Подключаем слайдер Slick -->
-			<script src="js/slick.min.js"></script>
-			<!-- Подключаем файл скриптов -->
-			<script src="js/script.js"></script>
-		</div>
-		<section>
-			<div>
-				<div>
-					<div class="carousel-wrapper" style="height: 400px;">
-						<!—Карусель использует обычные ссылки для ротации.
-						Ссылки используют свойство display: none; тегов span для того, чтобы наша страница не вела себя, как при нажатии на обычную ссылку.-->
+<!--			<div class="slider">-->
+<!--				<div class="slider__item filter">-->
+<!--					<img src="img/slides/big/02.jpg" alt="">-->
+<!--				</div>-->
+<!--				<div class="slider__item">-->
+<!--					<img src="img/slides/big/03.jpg" alt="">-->
+<!--				</div>-->
+<!--				<div class="slider__item filter">-->
+<!--					<img src="img/slides/big/04.jpg" alt="">-->
+<!--				</div>-->
+<!--				<div class="slider__item">-->
+<!--					<img src="img/slides/big/05.jpg" alt="">-->
+<!--				</div>-->
+<!--			</div>-->
+<!--			-->
+<!--			&lt;!&ndash; Подключаем jQuery &ndash;&gt;-->
+<!--			<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>-->
+<!--			&lt;!&ndash; Подключаем слайдер Slick &ndash;&gt;-->
+<!--			<script src="js/slick.min.js"></script>-->
+<!--			&lt;!&ndash; Подключаем файл скриптов &ndash;&gt;-->
+<!--			<script src="js/script.js"></script>-->
+<!--		</div>-->
+<!--		<section>-->
+<!--			<div>-->
+<!--				<div>-->
+<!--					<div class="carousel-wrapper" style="height: 400px;">-->
+<!--						<!—Карусель использует обычные ссылки для ротации.-->
+<!--						Ссылки используют свойство display: none; тегов span для того, чтобы наша страница не вела себя, как при нажатии на обычную ссылку.&ndash;&gt;-->
 
-						<span id="target-item-1"></span>
-						<span id="target-item-2"></span>
-						<span id="target-item-3"></span>
+<!--						<span id="target-item-1"></span>-->
+<!--						<span id="target-item-2"></span>-->
+<!--						<span id="target-item-3"></span>-->
 
-						<!—Тут располагаются слайды карусели.
-						У каждого элемента есть класс 'carousel-item', который мы используем для общих стилей, а так же класс item-#, который используется для контроля прозрачности. Прозрачность зависит от того, на каком target-item-# сейчас фокус-->
-						<div class="carousel-item item-1">
-							<!—Сюда можно добавить любой контент, только убедитесь, что ваш класс .carousel-wrapper имеет достаточную высоту для хранения всего содержимого.-->
+<!--						<!—Тут располагаются слайды карусели.-->
+<!--						У каждого элемента есть класс 'carousel-item', который мы используем для общих стилей, а так же класс item-#, который используется для контроля прозрачности. Прозрачность зависит от того, на каком target-item-# сейчас фокус&ndash;&gt;-->
+<!--						<div class="carousel-item item-1">-->
+<!--							<!—Сюда можно добавить любой контент, только убедитесь, что ваш класс .carousel-wrapper имеет достаточную высоту для хранения всего содержимого.&ndash;&gt;-->
 
-							<h2>Слайд 1</h2>
-							<p>Тут контент.</p>
+<!--							<h2>Слайд 1</h2>-->
+<!--							<p>Тут контент.</p>-->
 
-							<!—Тут ссылки для управления каруселью! Убедитесь, что каждый атрибут href ссылается на верный target-item-# так что карусель зацикливается.-->
+<!--							<!—Тут ссылки для управления каруселью! Убедитесь, что каждый атрибут href ссылается на верный target-item-# так что карусель зацикливается.&ndash;&gt;-->
 
 
-							<a class="arrow arrow-prev" href="#target-item-3"></a>
-							<a class="arrow arrow-next" href="#target-item-2"></a>
-						</div>
+<!--							<a class="arrow arrow-prev" href="#target-item-3"></a>-->
+<!--							<a class="arrow arrow-next" href="#target-item-2"></a>-->
+<!--						</div>-->
 
-						<!—Тут еще парочка div’ов. Заметили класс 'light'?
-						Royalblue достаточно темный цвет для заднего фона, и если слайд карусели имеет этот класс, мы можем добавить CSS правило, чтобы сделать текст белым,.-->
+<!--						<!—Тут еще парочка div’ов. Заметили класс 'light'?-->
+<!--						Royalblue достаточно темный цвет для заднего фона, и если слайд карусели имеет этот класс, мы можем добавить CSS правило, чтобы сделать текст белым,.&ndash;&gt;-->
 
-						<div class="carousel-item item-2 light" style="background-color: royalblue;">
-							<h2>Слайд 2</h2>
-							<p>Контент.</p>
-							<a class="arrow arrow-prev" href="#target-item-1"></a>
-							<a class="arrow arrow-next" href="#target-item-3"></a>
-						</div>
-						<div class="carousel-item item-3">
-							<h2>Item 3</h2>
-							<p>Content goes here.</p>
-							<a class="arrow arrow-prev" href="#target-item-2"></a>
-							<a class="arrow arrow-next" href="#target-item-1"></a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- Подключаем jQuery -->
-			<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-			<!-- Подключаем слайдер Slick -->
-			<script src="js/slick.min.js"></script>
-			<!-- Подключаем файл скриптов -->
-			<script src="js/script.js"></script>
-		</section
+<!--						<div class="carousel-item item-2 light" style="background-color: royalblue;">-->
+<!--							<h2>Слайд 2</h2>-->
+<!--							<p>Контент.</p>-->
+<!--							<a class="arrow arrow-prev" href="#target-item-1"></a>-->
+<!--							<a class="arrow arrow-next" href="#target-item-3"></a>-->
+<!--						</div>-->
+<!--						<div class="carousel-item item-3">-->
+<!--							<h2>Item 3</h2>-->
+<!--							<p>Content goes here.</p>-->
+<!--							<a class="arrow arrow-prev" href="#target-item-2"></a>-->
+<!--							<a class="arrow arrow-next" href="#target-item-1"></a>-->
+<!--						</div>-->
+<!--					</div>-->
+<!--				</div>-->
+<!--			</div>-->
+<!--			&lt;!&ndash; Подключаем jQuery &ndash;&gt;-->
+<!--			<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>-->
+<!--			&lt;!&ndash; Подключаем слайдер Slick &ndash;&gt;-->
+<!--			<script src="js/slick.min.js"></script>-->
+<!--			&lt;!&ndash; Подключаем файл скриптов &ndash;&gt;-->
+<!--			<script src="js/script.js"></script>-->
+<!--		</section-->
 
-	</body>
-</html>
+<!--	</body>-->
+<!--</html>-->
 
 

@@ -585,6 +585,11 @@ div.block4 p.p-block4{
 .slick-dots button{}
 
 /* Конкретный слайдер */
+.slick-arrow.slick-prev,
+.slick-arrow.slick-next{
+    bottom: 30px;
+    top:initial;
+}
 .slider {
     position: relative;
     padding: 0px 60px;
@@ -598,19 +603,19 @@ div.block4 p.p-block4{
 
 .slider .slick-arrow{
     position: absolute;
-    top: 50%;
+    bottom: -5%;
     margin: -30px 0px 0px 0px;
     z-index: 10;
     font-size: 0;
     width: 30px;
-    height: 60px;
+    height: 30px;
 }
 .slider .slick-arrow.slick-prev{
-    left: 0;
+    left:35%;
     background: url('../img/slides/back.svg') 0 0 / 100% no-repeat;
 }
 .slider .slick-arrow.slick-next{
-    right: 0;
+    right:35%;
     background: url('../img/slides/next.svg') 0 0 / 100% no-repeat;
 }
 .slider .slick-arrow.slick-disabled{
