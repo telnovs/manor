@@ -592,19 +592,19 @@ div.block4 p.p-block4{
 }
 .slider {
     position: relative;
-    padding: 0px 60px;
+    padding: 0 60px;
 }
 
 @media (max-width:767px){
     .slider {
-        padding: 0px 40px;
+        padding: 0 40px;
     }
 }
 
 .slider .slick-arrow{
     position: absolute;
-    bottom: -5%;
-    margin: -30px 0px 0px 0px;
+    bottom: 0%;
+    margin: -30px 0 0 0;
     z-index: 10;
     font-size: 0;
     width: 30px;
@@ -629,7 +629,7 @@ div.block4 p.p-block4{
 }
 .slider .slick-dots li{
     list-style: none;
-    margin: 0px 10px;
+    margin: 0 10px;
 }
 .slider .slick-dots button{
     font-size: 0;
@@ -639,17 +639,60 @@ div.block4 p.p-block4{
     border-radius: 50%;
 }
 
-.slider .slick-dots li.slick-active button{
+.slider .slick-dots li.slick-active button {
     background-color: transparent;
-    border: 1px solid #fff;
+    /*    border: 1px solid #fff;*/
+    /*}*/
 }
-
 .slider__item {
-    padding: 0px 15px;
+    padding: 0 15px;
 }
 .slider__item img{
     max-width: 100%;
 }
-.slider__item.slick-center{
+.slider__item .slick-center{
 
 }
+.slider__item .container-item{
+    border: 1px solid lightcoral;
+    margin-bottom: 10px;
+}
+.slider__item .container-item div img{
+    width: 350px;
+    height: 250px;
+    margin: 5px 5px;
+    padding: 0;
+}
+.slider__item .paragraph{
+    margin: 20px 0 20px 0;
+    text-align: left;
+    font-weight: 600;
+    line-height: 25px;
+    font-family: "Roboto Condensed",sans-serif;
+    letter-spacing: 0.14em;
+    color: #646566;
+    padding: 0 5px;
+}
+.slider__item .place{
+    display: inline-block;
+    margin-bottom: 10px;
+    text-align: left;
+    color: #646566;
+    font-weight: 600;
+    padding: 0 5px;
+    width:150px;
+    height: 42px;
+}
+.slider__item .price{
+    display: inline-block;
+    margin-bottom: 10px;
+    text-align: right;
+    color: #646566;
+    font-weight: 600;
+    padding: 0 5px;
+    width:150px;
+    height: 60px;
+}
+/**********************************************
+************ Вопросы  *********************
+***********************************************/

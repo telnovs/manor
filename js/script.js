@@ -2,6 +2,7 @@ $(document).ready(function(){
 	$('.slider').slick({
 		arrows:true,
 		dots:true,
+		slidesToScroll: 3,
 		slidesToShow:3,
 		autoplay:false,
 		speed:1000,
