@@ -9,6 +9,10 @@ body{
 .container-fluid{
     padding: 0;
 }
+@font-face {
+    font-family:'Roboto Light'; /* Имя шрифта */
+    src: url(/fonts/3962.ttf);
+}
 /*font-family: 'DM Sans', sans-serif;*/
 /*font-family: 'Roboto Condensed', sans-serif;*/
 /**********************************
@@ -724,4 +728,203 @@ div.block4 p.p-block4{
     max-width: 604px;
     width: 100%;
     margin-top: 32px;
+}
+.question .reverse_call_fields{
+    max-width: 757px;
+    width: 100%;
+    height: 274px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 75px;
+    background: #fff;
+    box-shadow: 1px 3px 38px #0000001f;
+}
+.question .book_call{
+    display: block;
+    margin-top: 0;
+    max-width: 740px;
+    width: 100%;
+    height: 260px;
+    border: 1px solid rgb(235, 240, 244);
+    border-radius: 5px;
+    padding-left: 44px;
+}
+.question .our_spec{
+    margin-top: 45px;
+    font-family: "Helvetica", sans-serif;
+    font-size: 21px;
+}
+.question .our_spec span{
+    font-family:"Helvetica", sans-serif;
+    color: #9f6d2b;
+}
+.question .qu_callBack{
+    max-width: 650px;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.question .reverse_call_fields .post{
+    cursor: pointer;
+    margin-top: 35px;
+    font-size: 13px;
+    font-family: "Roboto Light", serif;
+    color: #a8a9a9;
+    text-decoration: underline dashed;
+}
+.question .qu_callBack .qu_phone{
+    display: block;
+    width: 325px;
+    height: 62px;
+    background: rgb(239, 242, 244);
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.question .qu_callBack .qu_phone .your_phone{
+    background: none;
+    width: 100%;
+    height: 100%;
+    padding-left: 30px;
+    font-size: 16px;
+    font-family:'Roboto Light', serif;
+    border: none;
+}
+.question .qu_callBack .qu_button input{
+    width: 100%;
+    height: 100%;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: #fff;
+    border: none;
+}
+.question .qu_callBack .qu_button{
+    display: block;
+    cursor: pointer;
+    width: 301px;
+    height: 61px;
+    background: #2bb300;
+    border-radius: 5px;
+}
+/**********************************************
+************ этапы работ  *********************
+***********************************************/
+.work_stages {
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+.work_stages .container{
+    max-width: 1280px;
+    width: 100%;
+    display: flex;
+    padding: 0;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.work_stages .container .ws_title{
+    width: 100%;
+    text-align: center;
+    font-size: 39px;
+    font-family: 'DM Sans', sans-serif;
+}
+.work_stages .container .ws_wrapper{
+    max-width: 1280px;
+    width: 100%;
+    height: 412px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+.ws_desc{
+    color: #fff;
+    width: 227px;
+    font-size: 19px;
+    /* font-family: berlingskeSerifCnRegular; */
+    font-family: "Roboto Light", serif;
+    margin-top: 45px;
+}
+.ws_phone{
+    margin-top: 10px;
+    font-size: 28px;
+    font-family: "Roboto Light", serif;
+    color: #fff;
+}
+.work_stages .container .ws_wrapper .ws_item1{
+    background: url(../img/blockWork/1.png) no-repeat center;
+    width: 312px;
+    height: 396px;
+    padding-left: 40px;
+}
+.work_stages .container .ws_wrapper .ws_item2{
+    background: url(../img/blockWork/2.png) no-repeat center;
+    width: 312px;
+    height: 396px;
+    padding-left: 40px;
+}
+.work_stages .container .ws_wrapper .ws_item3{
+    background: url(../img/blockWork/3.png) no-repeat center;
+    width: 312px;
+    height: 396px;
+    padding-left: 40px;
+}
+.work_stages .container .ws_wrapper .ws_item4{
+    background: url(../img/blockWork/4.png) no-repeat center;
+    width: 312px;
+    height: 396px;
+    padding-left: 40px;
+}
+/**********************************************
+************ Карта  **************************
+***********************************************/
+.contacts{
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+.contacts .container .contacts_title{
+    width: 100%;
+    text-align: center;
+    font-size:39px;
+    font-family: "Roboto Light", serif;
+}
+.contacts .container .contacts_desc {
+    display: block;
+    padding: 0 30px;
+    max-width: 586px;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    font-size: 21px;
+    font-family: "Roboto Light", serif;
+    /*margin-top: 15px;*/
+    background-position-x: 10px;
+    margin: 10px auto;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.78px;
+    color: #646566;
+}
+.contacts .container a{
+    width: 100%;
+    text-decoration: none;
+    color: inherit;
+    background-size: cover;
+    height: 432px;
+}
+.contacts .container a div.map-href {
+    width: 100%;
+    height: 432px;
+    margin-top: 45px;
+    background: url(../img/map.png) no-repeat center;
+    background-size: cover;
 }

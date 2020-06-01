@@ -19,7 +19,27 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eae2206e-6b70-40e1-9c66-ef0deaf70241" name="Default Changelist" comment="section_question">
+    <list default="true" id="eae2206e-6b70-40e1-9c66-ef0deaf70241" name="Default Changelist" comment="section_question_v1">
+      <change afterPath="$PROJECT_DIR$/fonts/3962.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/RobotoCondensed-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/RobotoCondensed-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/RobotoCondensed-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/RobotoCondensed-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/RobotoCondensed-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/RobotoCondensed-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Roboto_Condensed.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/blockWork/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/blockWork/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/blockWork/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/blockWork/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/footer/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/footer/logo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/footer/вк.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/footer/инст.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/footer/фейсбук.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/map.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/met.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -33,12 +53,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1boZwJLcH5uVhuqsCgBUSqBucDx" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ChangesTree.GroupingKeys" value="" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -86,7 +109,8 @@
       <workItem from="1590591129572" duration="6960000" />
       <workItem from="1590683277236" duration="2445000" />
       <workItem from="1590838839533" duration="17510000" />
-      <workItem from="1590931090544" duration="10562000" />
+      <workItem from="1590931090544" duration="11956000" />
+      <workItem from="1591008748254" duration="16150000" />
     </task>
     <task id="LOCAL-00001" summary="IMG">
       <created>1589469634126</created>
@@ -221,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590943106001</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="section_question_v1">
+      <created>1590944267185</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1590944267185</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,6 +271,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="IMG" />
     <MESSAGE value="header" />
     <MESSAGE value="header- telefon" />
@@ -256,9 +288,14 @@
     <MESSAGE value="carousel-img" />
     <MESSAGE value="carousel" />
     <MESSAGE value="section_question" />
-    <option name="LAST_COMMIT_MESSAGE" value="section_question" />
+    <MESSAGE value="section_question_v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="section_question_v1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="311" y="40" width="800" height="712" key="#Plugins" timestamp="1591018056175">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="311" y="40" width="800" height="712" key="#Plugins/67.27.1299.741@67.27.1299.741" timestamp="1591018056175" />
     <state width="371" height="482" key="Diff.GoToChangePopup" timestamp="1589469852919">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -279,9 +316,9 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="500" y="83" width="423" height="626" key="Github.UntrackedFilesDialog/67.27.1299.741@67.27.1299.741" timestamp="1589473022306" />
-    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1590943123679">
+    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1590944275336">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1299.741@67.27.1299.741" timestamp="1590943123679" />
+    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1299.741@67.27.1299.741" timestamp="1590944275336" />
   </component>
 </project>
