@@ -96,7 +96,7 @@ header nav ul li a{
     background-position: center center;
 }
 .phone section h3 {
-    width: 220px;
+    width: 260px;
     margin: 0;
     padding:5px 10px 5px 0;
     text-align: right;
@@ -210,7 +210,7 @@ div.our_services article.services{
 }
 div.our_services section.services1{
     grid-area: services1;
-    height: 732px;
+    height: 793px;
     margin: 0;
     padding: 0;
     background-color: white;
@@ -254,7 +254,7 @@ div.our_services div.service1{
     background-image: url("../img/Слой_2358.png");
     background-repeat: no-repeat;
     background-position: center center;
-    margin-bottom:50px;
+    margin-bottom:85px;
     background-size: cover;
 
 }
@@ -295,6 +295,15 @@ div.our_services div.service4{
      background-size: cover;
 
  }
+div.our_services div.b1{
+    display: grid;
+    align-self: end;
+    width: 230px;
+    height: 50px;
+    justify-content: center;
+    margin: 5px 0 0 45px;
+    align-content: end;
+}
 div.our_services div.namber{
     display: grid;
     width: 68px;
@@ -315,7 +324,7 @@ div.our_services  div.button{
     width: 230px;
     height: 50px;
     padding: 0;
-    margin: 25px 0 50px 50px;
+    /*margin: 25px 0 50px 50px;*/
     background-color: #d6b790;
     border-radius:2px;
     align-items: center;
@@ -338,6 +347,7 @@ div.our_services h2.ourServicesH2{
     font-weight: 300;
     letter-spacing: 0.42em;
     margin:0 0 0 50px;
+    height: 100px;
 
 }
 /**********************************************
@@ -539,10 +549,12 @@ div.block4 p.p-block4{
 /*}*/
 .wrapper{
     height: 100%;
-    padding: 50px;
+    /*padding: 50px;*/
     display: flex;
     justify-content:center;
     align-items: center;
+    width: 1280px;
+    margin: 0 auto;
 }
 
 @media (max-width:767px){
@@ -676,6 +688,7 @@ div.block4 p.p-block4{
     letter-spacing: 0.14em;
     color: #646566;
     padding: 0 5px;
+    height: 80px;
 }
 .slider__item .place{
     display: inline-block;
@@ -927,4 +940,50 @@ div.block4 p.p-block4{
     margin-top: 45px;
     background: url(../img/map.png) no-repeat center;
     background-size: cover;
+}
+/**********************************************
+************ footer **************************
+***********************************************/
+.footer_first {
+    width: 100%;
+    height: 100px;
+
+}
+/* логотип и обзац*/
+.logo-desc .footer_logo{
+    display:inline-block ;
+    background: url("../img/footer/logo1.png") no-repeat center;
+    width: 115px;
+    height: 95px;
+    background-size: contain;
+}
+.footer_first .logo-desc .footer_desc{
+    /*height: 100px;*/
+    align-items: center;
+    font-family: "Roboto Light";
+    font-size: 15px;
+    padding: 25px 0;
+}
+/* иконки*/
+.a2{
+    height: 100px;
+}
+.social-networks .facebook{
+    margin: 25px 15px 25px 40px;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url("../img/footer/фейсбук.png") no-repeat center;
+}
+.social-networks .vk{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url("../img/footer/вк.png") no-repeat center;
+}
+.social-networks .inst{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url("../img/footer/инст.png") no-repeat center;
 }
