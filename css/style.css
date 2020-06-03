@@ -1021,8 +1021,7 @@ div.block4 p.p-block4{
     color: #525252;
 }
 .book-call {
-    width: 232px;
-    height: 53px;
+     height: 53px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1030,4 +1029,27 @@ div.block4 p.p-block4{
     background: linear-gradient(rgb(221, 201, 176) 0%, rgb(228, 209, 186) 53%, rgb(234, 217, 195) 100%);
     cursor: pointer;
     border-radius: 5px;
+}
+.footer_second{
+    margin: 20px 0;
+}
+.footer_second .reserved{
+    padding-left: 30px;
+    text-decoration: underline dashed;
+    font-family: "Roboto Light";
+    color: #777777;
+    font-size: 14px;
+}
+.footer_second .siteup-badge{
+    display: inline-block;
+    text-align: end;
+    font-size: 14px;
+    font-weight: 200;
+}
+.footer_second .siteup-badge div{
+    display: inline-block;
+    height: 14px;
+    width: 80px;
+    background: url("../img/footer/logo.png") no-repeat center;
+    text-align: center;
 }

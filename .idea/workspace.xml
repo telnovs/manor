@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eae2206e-6b70-40e1-9c66-ef0deaf70241" name="Default Changelist" comment="section_footer_v2">
+    <list default="true" id="eae2206e-6b70-40e1-9c66-ef0deaf70241" name="Default Changelist" comment="section_footer_v3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +91,7 @@
       <workItem from="1590931090544" duration="11956000" />
       <workItem from="1591008748254" duration="17667000" />
       <workItem from="1591098159296" duration="13595000" />
-      <workItem from="1591184603688" duration="3268000" />
+      <workItem from="1591184603688" duration="5089000" />
     </task>
     <task id="LOCAL-00001" summary="IMG">
       <created>1589469634126</created>
@@ -255,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591118638917</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="section_footer_v3">
+      <created>1591203427046</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1591203427046</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,7 +301,8 @@
     <MESSAGE value="section_footer" />
     <MESSAGE value="section_footer_v1" />
     <MESSAGE value="section_footer_v2" />
-    <option name="LAST_COMMIT_MESSAGE" value="section_footer_v2" />
+    <MESSAGE value="section_footer_v3" />
+    <option name="LAST_COMMIT_MESSAGE" value="section_footer_v3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="311" y="40" width="800" height="712" key="#Plugins" timestamp="1591110104290">
@@ -322,9 +329,9 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="500" y="83" width="423" height="626" key="Github.UntrackedFilesDialog/67.27.1299.741@67.27.1299.741" timestamp="1589473022306" />
-    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1591118646166">
+    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1591203649016">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1299.741@67.27.1299.741" timestamp="1591118646166" />
+    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1299.741@67.27.1299.741" timestamp="1591203649016" />
   </component>
 </project>
