@@ -967,23 +967,67 @@ div.block4 p.p-block4{
 /* иконки*/
 .a2{
     height: 100px;
+    padding: 0;
+    margin-left: 50px;
 }
 .social-networks .facebook{
-    margin: 25px 15px 25px 40px;
+    margin: 25px 15px 25px 60px;
     display: inline-block;
     width: 32px;
     height: 32px;
     background: url("../img/footer/фейсбук.png") no-repeat center;
 }
 .social-networks .vk{
+    margin: 25px 10px 25px 5px;
     display: inline-block;
     width: 32px;
     height: 32px;
     background: url("../img/footer/вк.png") no-repeat center;
 }
 .social-networks .inst{
+    margin: 25px 10px 25px 5px;
     display: inline-block;
     width: 32px;
     height: 32px;
     background: url("../img/footer/инст.png") no-repeat center;
+}
+/***** телефон и кнопка *****/
+.phone-and-book{
+    max-width: 525px;
+    width: 100%;
+    height: 65px;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-phone{
+    font-weight: 600;
+    font-size: 29px;
+    font-family: "Roboto Light";
+    /*color: #111111;*/
+}
+.footer-phone a{
+    color: #111111;
+    text-decoration: none;
+}
+.footer-email{
+    width: 160px;
+    font-size: 17px;
+    font-family: "Roboto Light";
+    color: #525252;
+    border-bottom: 1px dotted #525252;
+}
+.footer-email a{
+    width: 160px;
+    color: #525252;
+}
+.book-call {
+    width: 232px;
+    height: 53px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto Light";
+    background: linear-gradient(rgb(221, 201, 176) 0%, rgb(228, 209, 186) 53%, rgb(234, 217, 195) 100%);
+    cursor: pointer;
+    border-radius: 5px;
 }
